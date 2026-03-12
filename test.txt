@@ -1,0 +1,38 @@
+User : 
+
+1. Order the products
+
+Admin:
+
+1. Check orders
+2. Check Order details
+3. Get inventory alret if stock is low
+4. Option to add in inventory for odreded products
+5. Update stock on every order
+
+Screens:
+1. Login (admin and user)
+2. Admin : Crud for inventory, listing of order
+3. User: Product listing, Product details, Orders listing, Orders details, Pricing feature
+4. Profile
+
+
+1. Common ENV const
+2. common route const
+3. common api const
+
+--------------
+Auth 
+
+POST /api/auth/register
+POST /api/auth/login
+
+Products 
+
+POST /api/products        (admin)
+GET  /api/products        (all)
+GET  /api/products/:id
+PUT  /api/products/:id    (admin)
+DELETE /api/products/:id  (admin)
+
+GET /api/products/low-stock
